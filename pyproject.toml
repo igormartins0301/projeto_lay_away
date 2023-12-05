@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "modelo para odd de valor"
+version = "0.1.0"
+description = "Modelo construído para precificar a probabilidade melhor que o mercado"
+authors = ["Igor Martins <igormartins0301@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.3"
+scikit-learn = "^1.3.2"
+openpyxl = "^3.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
